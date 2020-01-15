@@ -57,7 +57,7 @@ spring:
       max-wait-millis: 150  # 等待连接获取的最大超时时间
 eureka:
   client:
-    register-with-eureka: false # 服务注册开关
+    register-with-eureka: true # 服务注册开关
     fetch-registry: false # 服务发现开关
     service-url: # 注册到哪一个Eureka Server服务注册中心，多个中间用逗号分隔
       defaultZone: http://eureka6001.com:6001/eureka/
